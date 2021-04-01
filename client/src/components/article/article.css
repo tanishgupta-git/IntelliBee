@@ -1,0 +1,11 @@
+.article img{
+    width: 100%;
+    margin-top:5px;
+}
+.article-read{
+    background-color: #737373;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    float: right;
+}

@@ -1,0 +1,53 @@
+.add-edit-article {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.add-edit-error {
+    color: red;
+}
+.add-edit-input input[type="text"],.add-edit-input textarea{
+ background: #cccccc;
+ border: none;
+ padding: 10px;
+ font-size: 1.1em;
+ width: 100%;
+ box-sizing: border-box;
+ border-radius: 4px;
+}    
+.add-edit-customfile input[type="file"]{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.add-edit-customfile{
+    background-color: #737373;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 20px 5px 10px 0;
+}
+
+.add-edit-form input[type='submit']{
+    background-color: #737373;
+    border: none;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1.1em;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-edit-existingimage{
+    display: flex;
+    flex-direction: column;
+}
+.add-edit-existingimage img{
+    width: 100%;
+}

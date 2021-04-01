@@ -1,0 +1,19 @@
+.article-detail {
+    width: 99%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+.article-detail img{
+    display: block;
+    width: 90%;
+    margin:0px auto;
+}
+.article-detail-creator{
+display: flex;
+align-items: center;
+font-size: 1.2em;
+}
+.article-detail-creator svg{
+    font-size:2.5em;
+    color: #737373;
+}

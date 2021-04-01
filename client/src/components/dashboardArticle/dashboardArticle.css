@@ -1,0 +1,28 @@
+.dashboard-article{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-top: 1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+}
+.dashboard-article img{
+    width:30%;
+}
+.dashboard-article-content{
+    width:40%;
+}
+.dashboard-article-actions {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.dashboard-article-actions svg {
+    font-size: 2em;
+    margin:0 20px;
+}
+.dashboard-article-actions button {
+    border: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+}

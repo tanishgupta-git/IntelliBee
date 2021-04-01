@@ -1,0 +1,43 @@
+nav {
+    padding: 10px 0;
+}
+.header-logo {
+    margin-left: 20px;
+}
+.logo {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.logo-size{
+    font-size: 1.4em;
+}
+.logo-right{
+    font-size: 2em;
+}
+.header ul {
+    list-style:none;
+    display: flex;
+    margin: 20px 0 0 0;
+    float: right;
+}
+
+.header ul li {
+    margin: 0 20px;
+}
+.nav-listitem {
+    padding:3px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dark{
+    background: #737373;
+    color: white;
+}
+.reverse-dark {
+  border: 1px solid #737373;  
+}
+.logout {
+    border: 0;
+    background-color: #ffffff;
+    font-size: 1em;
+}
